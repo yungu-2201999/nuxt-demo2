@@ -1,4 +1,0 @@
-import{g as n,j as g,r as y,k as m,l as o}from"./CdPBB6yi.js";async function h(e){const t=await e(),a=t.default||t;return $(a)}const f=new WeakMap;function $(e){if(f.has(e))return f.get(e);const t={...e};return t.render?t.render=(a,l,u,i,s,d)=>{var r;return i.mounted$??a.mounted$?n((r=e.render)==null?void 0:r.bind(a)(a,l,u,i,s,d)):n("div")}:t.template&&(t.template=`
-      <template v-if="mounted$">${e.template}</template>
-      <template v-else><div></div></template>
-    `),t.setup=(a,l)=>{var d;const u=g(),i=y(u.isHydrating===!1);m(()=>{i.value=!0});const s=((d=e.setup)==null?void 0:d.call(e,a,l))||{};return o(s)?Promise.resolve(s).then(r=>typeof r!="function"?(r||(r={}),r.mounted$=i,r):(...v)=>i.value||!u.isHydrating?n(r(...v)):n("div")):typeof s=="function"?(...r)=>i.value||!u.isHydrating?n(s(...r)):n("div"):Object.assign(s,{mounted$:i})},f.set(e,t),t}export{h as createClientPage};

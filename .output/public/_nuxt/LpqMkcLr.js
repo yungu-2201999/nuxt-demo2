@@ -1,0 +1,1 @@
+import{m as o,n as t,c as a,o as n,t as s,p as r}from"./CC7sTboq.js";const m=o({__name:"[id].client",setup(c){const e=t();return console.log(e.params.id),(p,i)=>(n(),a("div",null,s(r(e).params.id),1))}});export{m as default};
